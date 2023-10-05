@@ -1,4 +1,7 @@
 # CHANGELOG
+## v0.28.0.0
+ - Upgrade to use Ruby 3.2.2
+ - Upgrade to Decidim develop
 
 ## v0.27.1.5
  - FIX: When organization is nil, unique_id causes an exception.

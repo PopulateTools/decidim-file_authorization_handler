@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   # rubocop: enable Gemspec/RequiredRubyVersion
 
   # rubocop: disable Lint/ConstantDefinitionInBlock
-  DECIDIM_VERSION = "~> #{Decidim::FileAuthorizationHandler::DECIDIM_VERSION}".freeze
+  DECIDIM_VERSION = ">= #{Decidim::FileAuthorizationHandler::DECIDIM_VERSION}".freeze
   # rubocop: enable Lint/ConstantDefinitionInBlock
 
   s.add_dependency "decidim", DECIDIM_VERSION
