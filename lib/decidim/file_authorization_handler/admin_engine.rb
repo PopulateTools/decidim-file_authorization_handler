@@ -18,6 +18,10 @@ module Decidim
                     active: :inclusive
         end
       end
+
+      initializer "decidim_file_aurhorization.register_icons" do
+        Decidim.icons.register(name: "spreadsheet", icon: "table-2", category: "system", description: "", engine: :file_authorization_handler)
+      end
     end
   end
 end
